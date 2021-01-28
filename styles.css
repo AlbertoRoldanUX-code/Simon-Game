@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+h1 {
+  line-height: 1.5;
+}
+
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.cta {
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   height: 27px;
+   line-height: 27px;
+   color: #000000;
+   font-family: Verdana;
+   width: 277px;
+   font-size: 37px;
+   font-weight: 200;
+   padding: 33px;
+   background-color: #FFFFFF;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   border: solid #0059A0 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   z-index: 1
+}
+
+.cta:hover {
+   background: #E7E7E7;
+   border: solid #E7E7E7 1px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   text-decoration: none;
+}
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+  h1 {
+    padding-top: 100px;
+  }
+
+
+  img {
+    width: 40%;
+  }
+
+  .btn {
+    margin: 15px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20%;
+  }
+
+  .container {
+    padding-top: 100px;
+    width: 100%;
+  }
+
+  .cta {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 300px;
+  }
+
+  #level-title {
+    font-size: 1.5rem;
+  }
+}
